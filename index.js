@@ -22,12 +22,18 @@ const typeDefs = gql`
 
   type Query {
     pokemon: [Monster]
+    pokemonByName(name: String!): [Monster]
   }
 `;
 
 const resolvers = {
   Query: {
     pokemon: () => data,
+    pokemonByName: (_, params) => {
+      return data.filter(monster =>
+        monster.name.toLowerCase().includes(params.name.toLowerCase())
+      );
+    },
   },
 };
 
