@@ -4,6 +4,7 @@
   "description": "The first 150 pokemon, as a GraphQL API",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "test"
   },
   "repository": {
@@ -14,18 +15,31 @@
     "graphQL",
     "express"
   ],
-  "author": "Jon Short Sam Fare",
+  "author": "Jon Short, Sam Fare",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonShort/gotta-query-em-all/issues"
   },
   "homepage": "https://github.com/JonShort/gotta-query-em-all#readme",
   "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
     "nodemon": "^1.18.3",
     "prettier": "^1.14.2"
   },
   "dependencies": {
     "apollo-server": "^2.0.0",
     "graphql": "^0.13.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
