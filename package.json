@@ -1,0 +1,31 @@
+{
+  "name": "gotta-query-em-all",
+  "version": "1.0.0",
+  "description": "The first 150 pokemon, as a GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonShort/gotta-query-em-all.git"
+  },
+  "keywords": [
+    "graphQL",
+    "express"
+  ],
+  "author": "Jon Short Sam Fare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonShort/gotta-query-em-all/issues"
+  },
+  "homepage": "https://github.com/JonShort/gotta-query-em-all#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2"
+  }
+}
