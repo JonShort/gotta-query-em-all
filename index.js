@@ -4,21 +4,26 @@ const playgroundOptions = require('./config/playgroundOptions');
 const data = require('./data/pokemon.json');
 
 const typeDefs = gql`
-  type Evolutions {
-    id: Int
+  type MinMax {
+    minimum: String
+    maximum: String
+  }
+
+  type Evolution {
+    id: ID!
     name: String
   }
 
   type Monster {
-    id: Int
+    id: ID!
     name: String
     classification: String
     types: [String]
-    resistant: [String]
+    resistances: [String]
     weaknesses: [String]
-    fleeRate: Float
-    evolutions: [Evolutions]
-    maxCP: Int
+    weight: MinMax
+    height: MinMax
+    evolutions: [Evolution]
   }
 
   type Query {
