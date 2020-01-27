@@ -27,8 +27,10 @@ const typeDefs = gql`
   }
 
   type Query {
-    pokemon: [Monster]
-    pokemonByName(name: String!): [Monster]
+    pokemon: [Monster]!
+    pokemonById(id: String!): [Monster]!
+    pokemonByName(name: String!): [Monster]!
+    pokemonByType(type: String!): [Monster]!
   }
 `;
 
@@ -39,6 +41,16 @@ const resolvers = {
       return data.filter(monster =>
         monster.name.toLowerCase().includes(params.name.toLowerCase())
       );
+    },
+    pokemonById: (_, params) => {
+      return data.filter(monster => monster.id === params.id);
+    },
+    pokemonByType: (_, params) => {
+      return data.filter(monster => {
+        return monster.types.some(type => {
+          return type.toLowerCase().includes(params.type.toLowerCase());
+        });
+      });
     },
   },
 };
