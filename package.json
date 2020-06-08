@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/JonShort/gotta-query-em-all#readme",
   "devDependencies": {
-    "husky": "^4.2.1",
-    "lint-staged": "^10.0.3",
-    "nodemon": "^2.0.2",
-    "prettier": "^1.19.1"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
-    "apollo-server": "^2.9.16",
-    "graphql": "^14.6.0"
+    "apollo-server": "^2.14.2",
+    "graphql": "^15.1.0"
   },
   "husky": {
     "hooks": {

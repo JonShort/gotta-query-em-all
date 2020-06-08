@@ -4,7 +4,12 @@ const playgroundOptions = require('./config/playgroundOptions');
 const data = require('./data/pokemon.json');
 
 const typeDefs = gql`
-  type MinMax {
+  type Height {
+    minimum: String
+    maximum: String
+  }
+
+  type Weight {
     minimum: String
     maximum: String
   }
@@ -21,8 +26,8 @@ const typeDefs = gql`
     types: [String]
     resistances: [String]
     weaknesses: [String]
-    weight: MinMax
-    height: MinMax
+    weight: Weight
+    height: Height
     evolutions: [Evolution]
   }
 
@@ -38,16 +43,16 @@ const resolvers = {
   Query: {
     pokemon: () => data,
     pokemonByName: (_, params) => {
-      return data.filter(monster =>
+      return data.filter((monster) =>
         monster.name.toLowerCase().includes(params.name.toLowerCase())
       );
     },
     pokemonById: (_, params) => {
-      return data.filter(monster => monster.id === params.id);
+      return data.filter((monster) => monster.id === params.id);
     },
     pokemonByType: (_, params) => {
-      return data.filter(monster => {
-        return monster.types.some(type => {
+      return data.filter((monster) => {
+        return monster.types.some((type) => {
           return type.toLowerCase().includes(params.type.toLowerCase());
         });
       });
