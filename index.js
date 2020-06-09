@@ -1,6 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server');
 
-const playgroundOptions = require('./config/playgroundOptions');
 const data = require('./data/pokemon.json');
 
 const typeDefs = gql`
@@ -61,11 +60,14 @@ const resolvers = {
 };
 
 const server = new ApolloServer({
-  typeDefs,
+  introspection: true,
+  playground: true,
   resolvers,
-  playground: playgroundOptions,
+  typeDefs,
 });
 
-server.listen().then(({ url }) => {
+const PORT = process.env.PORT || 4000;
+
+server.listen({ port: PORT }).then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
 });
