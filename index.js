@@ -19,15 +19,16 @@ const typeDefs = gql`
   }
 
   type Monster {
-    id: ID!
-    name: String
     classification: String
-    types: [String]
+    evolutions: [Evolution]
+    height: Height
+    id: ID!
+    imgSrc: String
+    name: String
     resistances: [String]
+    types: [String]
     weaknesses: [String]
     weight: Weight
-    height: Height
-    evolutions: [Evolution]
   }
 
   type Query {
