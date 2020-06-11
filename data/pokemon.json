@@ -17,10 +17,12 @@
     "evolutions": [
       {
         "id": "002",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/73/002Ivysaur.png/250px-002Ivysaur.png",
         "name": "Ivysaur"
       },
       {
         "id": "003",
+        "imgSrc": "https://bulbapedia.bulbagarden.net/wiki/File:003Venusaur.png",
         "name": "Venusaur"
       }
     ],
@@ -44,6 +46,7 @@
     "evolutions": [
       {
         "id": "003",
+        "imgSrc": "https://bulbapedia.bulbagarden.net/wiki/File:003Venusaur.png",
         "name": "Venusaur"
       }
     ],
@@ -84,10 +87,12 @@
     "evolutions": [
       {
         "id": "005",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/4/4a/005Charmeleon.png/250px-005Charmeleon.png",
         "name": "Charmeleon"
       },
       {
         "id": "006",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png",
         "name": "Charizard"
       }
     ],
@@ -111,6 +116,7 @@
     "evolutions": [
       {
         "id": "006",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png",
         "name": "Charizard"
       }
     ],
@@ -151,10 +157,12 @@
     "evolutions": [
       {
         "id": "008",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/0c/008Wartortle.png/250px-008Wartortle.png",
         "name": "Wartortle"
       },
       {
         "id": "009",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/02/009Blastoise.png/250px-009Blastoise.png",
         "name": "Blastoise"
       }
     ],
@@ -178,6 +186,7 @@
     "evolutions": [
       {
         "id": "009",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/02/009Blastoise.png/250px-009Blastoise.png",
         "name": "Blastoise"
       }
     ],
@@ -218,10 +227,12 @@
     "evolutions": [
       {
         "id": "011",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cd/011Metapod.png/250px-011Metapod.png",
         "name": "Metapod"
       },
       {
         "id": "012",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png",
         "name": "Butterfree"
       }
     ],
@@ -245,6 +256,7 @@
     "evolutions": [
       {
         "id": "012",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png",
         "name": "Butterfree"
       }
     ],
@@ -285,10 +297,12 @@
     "evolutions": [
       {
         "id": "014",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/f0/014Kakuna.png/250px-014Kakuna.png",
         "name": "Kakuna"
       },
       {
         "id": "015",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/61/015Beedrill.png/250px-015Beedrill.png",
         "name": "Beedrill"
       }
     ],
@@ -312,6 +326,7 @@
     "evolutions": [
       {
         "id": "015",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/61/015Beedrill.png/250px-015Beedrill.png",
         "name": "Beedrill"
       }
     ],
@@ -352,10 +367,12 @@
     "evolutions": [
       {
         "id": "017",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/7a/017Pidgeotto.png/250px-017Pidgeotto.png",
         "name": "Pidgeotto"
       },
       {
         "id": "018",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/5/57/018Pidgeot.png/250px-018Pidgeot.png",
         "name": "Pidgeot"
       }
     ],
@@ -379,6 +396,7 @@
     "evolutions": [
       {
         "id": "018",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/5/57/018Pidgeot.png/250px-018Pidgeot.png",
         "name": "Pidgeot"
       }
     ],
@@ -419,6 +437,7 @@
     "evolutions": [
       {
         "id": "020",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/f4/020Raticate.png/250px-020Raticate.png",
         "name": "Raticate"
       }
     ],
@@ -459,6 +478,7 @@
     "evolutions": [
       {
         "id": "022",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/a/a0/022Fearow.png/250px-022Fearow.png",
         "name": "Fearow"
       }
     ],
@@ -499,6 +519,7 @@
     "evolutions": [
       {
         "id": "024",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cd/024Arbok.png/250px-024Arbok.png",
         "name": "Arbok"
       }
     ],
@@ -539,6 +560,7 @@
     "evolutions": [
       {
         "id": "026",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/88/026Raichu.png/250px-026Raichu.png",
         "name": "Raichu"
       }
     ],
@@ -579,6 +601,7 @@
     "evolutions": [
       {
         "id": "028",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/0b/028Sandslash.png/250px-028Sandslash.png",
         "name": "Sandslash"
       }
     ],
@@ -619,10 +642,12 @@
     "evolutions": [
       {
         "id": "030",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cd/030Nidorina.png/250px-030Nidorina.png",
         "name": "Nidorina"
       },
       {
         "id": "031",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/bf/031Nidoqueen.png/250px-031Nidoqueen.png",
         "name": "Nidoqueen"
       }
     ],
@@ -646,6 +671,7 @@
     "evolutions": [
       {
         "id": "031",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/bf/031Nidoqueen.png/250px-031Nidoqueen.png",
         "name": "Nidoqueen"
       }
     ],
@@ -686,10 +712,12 @@
     "evolutions": [
       {
         "id": "033",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/9f/033Nidorino.png/250px-033Nidorino.png",
         "name": "Nidorino"
       },
       {
         "id": "034",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/c6/034Nidoking.png/250px-034Nidoking.png",
         "name": "Nidoking"
       }
     ],
@@ -713,6 +741,7 @@
     "evolutions": [
       {
         "id": "034",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/c6/034Nidoking.png/250px-034Nidoking.png",
         "name": "Nidoking"
       }
     ],
@@ -753,6 +782,7 @@
     "evolutions": [
       {
         "id": "036",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/a/a9/036Clefable.png/250px-036Clefable.png",
         "name": "Clefable"
       }
     ],
@@ -793,6 +823,7 @@
     "evolutions": [
       {
         "id": "038",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/05/038Ninetales.png/250px-038Ninetales.png",
         "name": "Ninetales"
       }
     ],
@@ -832,8 +863,9 @@
     },
     "evolutions": [
       {
-        "id": "039",
-        "name": "Jigglypuff"
+        "id": "040",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/92/040Wigglytuff.png/250px-040Wigglytuff.png",
+        "name": "Wigglytuff"
       }
     ],
     "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/3/3e/039Jigglypuff.png/250px-039Jigglypuff.png"
@@ -873,6 +905,7 @@
     "evolutions": [
       {
         "id": "042",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/0c/042Golbat.png/250px-042Golbat.png",
         "name": "Golbat"
       }
     ],
@@ -913,10 +946,12 @@
     "evolutions": [
       {
         "id": "044",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/2a/044Gloom.png/250px-044Gloom.png",
         "name": "Gloom"
       },
       {
         "id": "045",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/6a/045Vileplume.png/250px-045Vileplume.png",
         "name": "Vileplume"
       }
     ],
@@ -940,6 +975,7 @@
     "evolutions": [
       {
         "id": "045",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/6a/045Vileplume.png/250px-045Vileplume.png",
         "name": "Vileplume"
       }
     ],
@@ -980,6 +1016,7 @@
     "evolutions": [
       {
         "id": "047",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/80/047Parasect.png/250px-047Parasect.png",
         "name": "Parasect"
       }
     ],
@@ -1020,6 +1057,7 @@
     "evolutions": [
       {
         "id": "049",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/d/d3/049Venomoth.png/250px-049Venomoth.png",
         "name": "Venomoth"
       }
     ],
@@ -1060,6 +1098,7 @@
     "evolutions": [
       {
         "id": "051",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/e/e5/051Dugtrio.png/250px-051Dugtrio.png",
         "name": "Dugtrio"
       }
     ],
@@ -1100,6 +1139,7 @@
     "evolutions": [
       {
         "id": "053",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/1/13/053Persian.png/250px-053Persian.png",
         "name": "Persian"
       }
     ],
@@ -1140,6 +1180,7 @@
     "evolutions": [
       {
         "id": "055",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/fe/055Golduck.png/250px-055Golduck.png",
         "name": "Golduck"
       }
     ],
@@ -1180,6 +1221,7 @@
     "evolutions": [
       {
         "id": "057",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/9a/057Primeape.png/250px-057Primeape.png",
         "name": "Primeape"
       }
     ],
@@ -1220,6 +1262,7 @@
     "evolutions": [
       {
         "id": "059",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/b8/059Arcanine.png/250px-059Arcanine.png",
         "name": "Arcanine"
       }
     ],
@@ -1260,10 +1303,12 @@
     "evolutions": [
       {
         "id": "061",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/a/a9/061Poliwhirl.png/250px-061Poliwhirl.png",
         "name": "Poliwhirl"
       },
       {
         "id": "062",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/2d/062Poliwrath.png/250px-062Poliwrath.png",
         "name": "Poliwrath"
       }
     ],
@@ -1287,6 +1332,7 @@
     "evolutions": [
       {
         "id": "062",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/2d/062Poliwrath.png/250px-062Poliwrath.png",
         "name": "Poliwrath"
       }
     ],
@@ -1327,10 +1373,12 @@
     "evolutions": [
       {
         "id": "064",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/97/064Kadabra.png/250px-064Kadabra.png",
         "name": "Kadabra"
       },
       {
         "id": "065",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cc/065Alakazam.png/250px-065Alakazam.png",
         "name": "Alakazam"
       }
     ],
@@ -1354,6 +1402,7 @@
     "evolutions": [
       {
         "id": "065",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cc/065Alakazam.png/250px-065Alakazam.png",
         "name": "Alakazam"
       }
     ],
@@ -1394,10 +1443,12 @@
     "evolutions": [
       {
         "id": "067",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8e/067Machoke.png/250px-067Machoke.png",
         "name": "Machoke"
       },
       {
         "id": "068",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8f/068Machamp.png/250px-068Machamp.png",
         "name": "Machamp"
       }
     ],
@@ -1421,6 +1472,7 @@
     "evolutions": [
       {
         "id": "068",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8f/068Machamp.png/250px-068Machamp.png",
         "name": "Machamp"
       }
     ],
@@ -1461,10 +1513,12 @@
     "evolutions": [
       {
         "id": "070",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/9f/070Weepinbell.png/250px-070Weepinbell.png",
         "name": "Weepinbell"
       },
       {
         "id": "071",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/be/071Victreebel.png/250px-071Victreebel.png",
         "name": "Victreebel"
       }
     ],
@@ -1488,6 +1542,7 @@
     "evolutions": [
       {
         "id": "071",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/be/071Victreebel.png/250px-071Victreebel.png",
         "name": "Victreebel"
       }
     ],
@@ -1537,6 +1592,7 @@
     "evolutions": [
       {
         "id": "073",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/f6/073Tentacruel.png/250px-073Tentacruel.png",
         "name": "Tentacruel"
       }
     ],
@@ -1586,10 +1642,12 @@
     "evolutions": [
       {
         "id": "075",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/75/075Graveler.png/250px-075Graveler.png",
         "name": "Graveler"
       },
       {
         "id": "076",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/f2/076Golem.png/250px-076Golem.png",
         "name": "Golem"
       }
     ],
@@ -1613,6 +1671,7 @@
     "evolutions": [
       {
         "id": "076",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/f2/076Golem.png/250px-076Golem.png",
         "name": "Golem"
       }
     ],
@@ -1653,6 +1712,7 @@
     "evolutions": [
       {
         "id": "078",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/3/3f/078Rapidash.png/250px-078Rapidash.png",
         "name": "Rapidash"
       }
     ],
@@ -1693,6 +1753,7 @@
     "evolutions": [
       {
         "id": "080",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/80/080Slowbro.png/250px-080Slowbro.png",
         "name": "Slowbro"
       }
     ],
@@ -1746,6 +1807,7 @@
     "evolutions": [
       {
         "id": "082",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/72/082Magneton.png/250px-082Magneton.png",
         "name": "Magneton"
       }
     ],
@@ -1816,6 +1878,7 @@
     "evolutions": [
       {
         "id": "085",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/93/085Dodrio.png/250px-085Dodrio.png",
         "name": "Dodrio"
       }
     ],
@@ -1856,6 +1919,7 @@
     "evolutions": [
       {
         "id": "087",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/c7/087Dewgong.png/250px-087Dewgong.png",
         "name": "Dewgong"
       }
     ],
@@ -1896,6 +1960,7 @@
     "evolutions": [
       {
         "id": "089",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/7c/089Muk.png/250px-089Muk.png",
         "name": "Muk"
       }
     ],
@@ -1936,6 +2001,7 @@
     "evolutions": [
       {
         "id": "091",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/1/1d/091Cloyster.png/250px-091Cloyster.png",
         "name": "Cloyster"
       }
     ],
@@ -1976,10 +2042,12 @@
     "evolutions": [
       {
         "id": "093",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/62/093Haunter.png/250px-093Haunter.png",
         "name": "Haunter"
       },
       {
         "id": "094",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png",
         "name": "Gengar"
       }
     ],
@@ -2003,6 +2071,7 @@
     "evolutions": [
       {
         "id": "094",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png",
         "name": "Gengar"
       }
     ],
@@ -2060,6 +2129,7 @@
     "evolutions": [
       {
         "id": "097",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/0/0a/097Hypno.png/250px-097Hypno.png",
         "name": "Hypno"
       }
     ],
@@ -2100,6 +2170,7 @@
     "evolutions": [
       {
         "id": "099",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/71/099Kingler.png/250px-099Kingler.png",
         "name": "Kingler"
       }
     ],
@@ -2140,6 +2211,7 @@
     "evolutions": [
       {
         "id": "101",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/84/101Electrode.png/250px-101Electrode.png",
         "name": "Electrode"
       }
     ],
@@ -2187,6 +2259,7 @@
     "evolutions": [
       {
         "id": "103",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/24/103Exeggutor.png/250px-103Exeggutor.png",
         "name": "Exeggutor"
       }
     ],
@@ -2234,6 +2307,7 @@
     "evolutions": [
       {
         "id": "105",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/98/105Marowak.png/250px-105Marowak.png",
         "name": "Marowak"
       }
     ],
@@ -2325,6 +2399,7 @@
     "evolutions": [
       {
         "id": "110",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/4/42/110Weezing.png/250px-110Weezing.png",
         "name": "Weezing"
       }
     ],
@@ -2365,6 +2440,7 @@
     "evolutions": [
       {
         "id": "112",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/4/47/112Rhydon.png/250px-112Rhydon.png",
         "name": "Rhydon"
       }
     ],
@@ -2456,6 +2532,7 @@
     "evolutions": [
       {
         "id": "117",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/26/117Seadra.png/250px-117Seadra.png",
         "name": "Seadra"
       }
     ],
@@ -2496,6 +2573,7 @@
     "evolutions": [
       {
         "id": "119",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/6/6a/119Seaking.png/250px-119Seaking.png",
         "name": "Seaking"
       }
     ],
@@ -2536,6 +2614,7 @@
     "evolutions": [
       {
         "id": "121",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cd/121Starmie.png/250px-121Starmie.png",
         "name": "Starmie"
       }
     ],
@@ -2695,6 +2774,7 @@
     "evolutions": [
       {
         "id": "130",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/4/41/130Gyarados.png/250px-130Gyarados.png",
         "name": "Gyarados"
       }
     ],
@@ -2769,14 +2849,17 @@
     "evolutions": [
       {
         "id": "134",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/f/fd/134Vaporeon.png/250px-134Vaporeon.png",
         "name": "Vaporeon"
       },
       {
         "id": "135",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/b/bb/135Jolteon.png/250px-135Jolteon.png",
         "name": "Jolteon"
       },
       {
         "id": "136",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/d/dd/136Flareon.png/250px-136Flareon.png",
         "name": "Flareon"
       }
     ],
@@ -2868,6 +2951,7 @@
     "evolutions": [
       {
         "id": "139",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/4/43/139Omastar.png/250px-139Omastar.png",
         "name": "Omastar"
       }
     ],
@@ -2908,6 +2992,7 @@
     "evolutions": [
       {
         "id": "141",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/2/29/141Kabutops.png/250px-141Kabutops.png",
         "name": "Kabutops"
       }
     ],
@@ -3033,7 +3118,13 @@
     "evolutions": [
       {
         "id": "148",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/9/93/148Dragonair.png/250px-148Dragonair.png",
         "name": "Dragonair"
+      },
+      {
+        "id": "149",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8b/149Dragonite.png/250px-149Dragonite.png",
+        "name": "Dragonite"
       }
     ],
     "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/c/cc/147Dratini.png/250px-147Dratini.png"
@@ -3056,6 +3147,7 @@
     "evolutions": [
       {
         "id": "149",
+        "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8b/149Dragonite.png/250px-149Dragonite.png",
         "name": "Dragonite"
       }
     ],
