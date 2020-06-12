@@ -61,15 +61,24 @@ const typeDefs = gql`
 
     e.g. id: "003"
     """
-    pokemonById(id: String!): [Pokemon]!
+    pokemonById(id: String!): Pokemon
+
     """
-       Provide full or partial name, will return partial matches (not case sensitive)
+       Provide full or partial name, will return all matches (not case sensitive)
 
     e.g. name: "pika"
     """
-    pokemonByName(name: String!): [Pokemon]!
+    pokemonByPartialName(name: String!): [Pokemon]!
+
     """
-       Provide type (not case sensitive)
+       Provide name (not case sensitive)
+
+    e.g. name: "pikachu"
+    """
+    pokemonByName(name: String!): Pokemon
+
+    """
+       Provide type, will return all matches (not case sensitive)
 
     e.g. type: "poison"
     """
@@ -81,12 +90,17 @@ const resolvers = {
   Query: {
     pokemon: () => data,
     pokemonByName: (_, params) => {
+      return data.find(
+        (monster) => monster.name.toLowerCase() === params.name.toLowerCase()
+      );
+    },
+    pokemonByPartialName: (_, params) => {
       return data.filter((monster) =>
         monster.name.toLowerCase().includes(params.name.toLowerCase())
       );
     },
     pokemonById: (_, params) => {
-      return data.filter((monster) => monster.id === params.id);
+      return data.find((monster) => monster.id === params.id);
     },
     pokemonByType: (_, params) => {
       return data.filter((monster) => {
