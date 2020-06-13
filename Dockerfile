@@ -12,6 +12,6 @@ RUN npm ci
 COPY index.js ./
 COPY data ./data/
 
-ENTRYPOINT [ "node", "index.js" ]
+CMD [ "node", "index.js" ]
 
 EXPOSE $PORT
