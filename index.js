@@ -2,7 +2,7 @@ const { ApolloServer, gql } = require('apollo-server');
 
 const data = require('./data/pokemon.json');
 
-const typeDefs = gql`
+const types = gql`
   """
   Height of the pokemon, ranges between a minimum and maximum value
   """
@@ -19,15 +19,6 @@ const typeDefs = gql`
     maximum: String
   }
 
-  """
-  Details of the evolution, ID can be used for further queries
-  """
-  type Evolution {
-    id: ID!
-    imgSrc: String
-    name: String
-  }
-
   type Pokemon {
     """
     Definiting trait of the Pokemon e.g. "Seed Pokémon"
@@ -38,7 +29,7 @@ const typeDefs = gql`
 
     e.g. [B, C] - A > B > C
     """
-    evolutions: [Evolution]
+    evolutions: [Pokemon]
     height: Height
     """
        ID as in Pokedex
@@ -53,7 +44,9 @@ const typeDefs = gql`
     weaknesses: [String]
     weight: Weight
   }
+`;
 
+const queries = gql`
   type Query {
     pokemon: [Pokemon]!
     """
@@ -86,7 +79,21 @@ const typeDefs = gql`
   }
 `;
 
+const typeDefs = gql`
+  ${types}
+  ${queries}
+`;
+
 const resolvers = {
+  Pokemon: {
+    evolutions: ({ evolutions }) => {
+      if (!evolutions) {
+        return [];
+      }
+
+      return evolutions.map((ev) => data.find((d) => d.id === ev.id));
+    },
+  },
   Query: {
     pokemon: () => data,
     pokemonByName: (_, params) => {
