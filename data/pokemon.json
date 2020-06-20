@@ -61,7 +61,7 @@
       "minimum": "1.75m",
       "maximum": "2.25m"
     },
-    "imgSrc": "https://bulbapedia.bulbagarden.net/wiki/File:003Venusaur.png"
+    "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/a/ae/003Venusaur.png/250px-003Venusaur.png"
   },
   {
     "id": "004",
@@ -86,7 +86,7 @@
         "id": "006"
       }
     ],
-    "imgSrc": "https://bulbapedia.bulbagarden.net/wiki/File:004Charmander.png"
+    "imgSrc": "https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png"
   },
   {
     "id": "005",
