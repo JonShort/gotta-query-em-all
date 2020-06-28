@@ -1,3 +1,5 @@
 build:
+  config:
+    CORS_ORIGIN: https:\/\/(jonshort|haylzhill).github.io
   docker:
     web: Dockerfile

@@ -120,6 +120,11 @@ const resolvers = {
 };
 
 const server = new ApolloServer({
+  cors: {
+    allowedHeaders: 'Content-Type,Authorization',
+    methods: 'POST',
+    origin: process.env.CORS_ORIGIN || false,
+  },
   introspection: true,
   playground: true,
   resolvers,
