@@ -48,6 +48,11 @@ _Push to heroku container registry_
 heroku container:push web -a PROJECT_NAME
 ```
 
+_Build args can be provided with --arg_
+```bash
+heroku container:push web --arg CORS_ORIGIN=localhost:3000 -a PROJECT_NAME
+```
+
 _Release to heroku (go live)_
 ```bash
 heroku container:release web -a PROJECT_NAME
