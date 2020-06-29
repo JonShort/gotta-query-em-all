@@ -123,7 +123,9 @@ const server = new ApolloServer({
   cors: {
     allowedHeaders: 'Content-Type,Authorization',
     methods: 'POST',
-    origin: process.env.CORS_ORIGIN || false,
+    origin: !!process.env.CORS_ORIGIN
+      ? new RegExp(process.env.CORS_ORIGIN)
+      : false,
   },
   introspection: true,
   playground: true,
