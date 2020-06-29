@@ -119,14 +119,22 @@ const resolvers = {
   },
 };
 
+const resolveCorsOptions = () => {
+  if (!process.env.CORS_ORIGIN) {
+    return {};
+  }
+
+  return {
+    cors: {
+      allowedHeaders: 'Content-Type,Authorization',
+      methods: 'POST',
+      origin: new RegExp(process.env.CORS_ORIGIN),
+    },
+  };
+};
+
 const server = new ApolloServer({
-  cors: {
-    allowedHeaders: 'Content-Type,Authorization',
-    methods: 'POST',
-    origin: !!process.env.CORS_ORIGIN
-      ? new RegExp(process.env.CORS_ORIGIN)
-      : false,
-  },
+  ...resolveCorsOptions(),
   introspection: true,
   playground: true,
   resolvers,
