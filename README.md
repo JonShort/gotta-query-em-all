@@ -6,7 +6,7 @@ The first 150 pokemon, as a GraphQL API
 
 _Install dependencies_
 ```bash
-npm i
+npm install
 ```
 
 _Run development server (defaults to port 4000)_
