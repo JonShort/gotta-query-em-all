@@ -2,6 +2,42 @@
 
 The first 150 pokemon, as a GraphQL API
 
+Explore the API - https://gotta-query-em-all.herokuapp.com
+
+**Example queries**
+```graphql
+query allPokemonIds {
+  pokemon {
+    id
+  }
+}
+```
+
+```graphql
+query grassTypes {
+  pokemonByType(type: "grass") {
+    id
+    imgSrc
+    name
+  }
+}
+```
+
+```graphql
+query PikachuByName {
+  pikachu: pokemonByName(name: "pikachu") {
+    evolutions {
+      id
+      imgSrc
+			name
+    }
+    id
+    imgSrc
+    name
+  }
+}
+```
+
 ## Development
 
 _Install dependencies_
