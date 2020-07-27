@@ -29,7 +29,7 @@ query PikachuByName {
     evolutions {
       id
       imgSrc
-			name
+      name
     }
     id
     imgSrc
