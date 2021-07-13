@@ -24,7 +24,7 @@
   "homepage": "https://github.com/JonShort/gotta-query-em-all#readme",
   "devDependencies": {
     "husky": "^7.0.1",
-    "lint-staged": "^10.5.3",
+    "lint-staged": "^11.0.1",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2"
   },
