@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "apollo-server": "^2.19.0",
-    "graphql": "^15.4.0"
+    "graphql": "^15.5.1"
   },
   "husky": {
     "hooks": {
