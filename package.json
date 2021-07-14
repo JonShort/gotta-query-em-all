@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "test"
+    "test": "test",
+    "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -22,19 +23,14 @@
   },
   "homepage": "https://github.com/JonShort/gotta-query-em-all#readme",
   "devDependencies": {
-    "husky": "^4.3.6",
-    "lint-staged": "^10.5.3",
-    "nodemon": "^2.0.6",
-    "prettier": "^2.2.1"
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
   },
   "dependencies": {
-    "apollo-server": "^2.19.0",
-    "graphql": "^15.4.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "apollo-server": "^3.0.0",
+    "graphql": "^15.5.1"
   },
   "lint-staged": {
     "*.js": [
