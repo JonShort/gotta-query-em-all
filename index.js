@@ -136,7 +136,6 @@ const resolveCorsOptions = () => {
 const server = new ApolloServer({
   ...resolveCorsOptions(),
   introspection: true,
-  playground: true,
   resolvers,
   typeDefs,
 });
